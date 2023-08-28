@@ -1,0 +1,18 @@
+● ¿Qué harías para generar un archivo CSV de las frutas de la #11 a la #20?
+(como si estuviera paginada)
+podrias solicitarle al usuario un rango de inicio y 
+rango final, y que se obtenga ese rango de frutas basandose en el id.
+
+
+● Si el API estuviera intermitente, regresando un status HTTP 500, cómo lo
+manejarías?
+Mostraria al usuario un mensaje de error donde se muestre que el servicio 
+esta teniendo problemas o no esta disponible en ese momento y que revise 
+en un par de minutos mas.
+
+
+● ¿Cómo guardarías la información en una base de datos?
+en este caso podriamos instalar sqlite, inicializarlo crear la tabla y cambiar la funcion de guardar o crear otra funcion para almacenar los datos en la tabla recien creada.
+
+● ¿Qué escenarios de pruebas agregarías?
+verificar si la api no duevuelve datos validos, test para buscar una fruta por nombre o criterio validos.
